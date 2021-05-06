@@ -1,0 +1,33 @@
+{
+  "name": "platiz-conf-merch",
+  "version": "1.0.0",
+  "description": "An e-commerce using React Hooks ",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "React",
+    "Hooks",
+    "Ecommerce",
+    "APIs",
+    "JS",
+    "Platzi"
+  ],
+  "author": "justkahdri",
+  "license": "MIT",
+  "dependencies": {
+    "npm": "^7.11.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
