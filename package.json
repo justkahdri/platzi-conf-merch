@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "An e-commerce using React Hooks ",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production"
+  },
   "keywords": [
     "React",
     "Hooks",
