@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
+import {MdDelete} from 'react-icons/md';
 import '../styles/components/Checkout.css';
 
 const Checkout = () => (
@@ -11,12 +13,16 @@ const Checkout = () => (
                     <h4>ITEM NAME</h4>
                     <span>$10</span>
                 </div>
-                <button type='button'>Eliminar</button>
+                <button type='button'>
+                    <MdDelete />
+                </button>
             </div>
         </section>
         <section className="checkout-sidebar">
             <h3>Precio Total: $10</h3>
-            <button type="button">Continuar pedido</button>
+            <Link to="/checkout/info">
+                <button type="button">Continuar pedido</button>
+            </Link>
         </section>
     </div>
 );
